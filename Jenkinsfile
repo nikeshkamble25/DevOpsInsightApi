@@ -1,5 +1,5 @@
-// node('master')
-// {
+node
+{
     stage('Code Checkout')
     {
         checkout([$class: 'GitSCM',
@@ -8,4 +8,4 @@
               extensions: [],
               submoduleCfg: []])    
     }
-// }
+}
